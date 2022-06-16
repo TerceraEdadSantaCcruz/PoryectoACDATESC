@@ -1,0 +1,252 @@
+.formulario {
+    width: 80%;
+    background: #b4b4b488;
+    padding: 30px;
+    margin: auto;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 5px 15px #000;
+}
+
+.fondo {
+    background-image: url("../css/imagen/logofondo.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.formulario h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cabeza {
+    padding: 0.75rem 0.75rem;
+    margin-bottom: 0;
+    margin: auto;
+    background-color: #007fff;
+    border-bottom: 1px solid rgba(238, 0, 0, 0.125);
+    border-radius: 15px 15px 15px 15px;
+    font-family: 'calibri';
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.616);
+}
+
+.controls {
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #6e7fa3;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.formulario a {
+    color: white;
+    text-decoration: none;
+}
+
+.formulario a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.formulario .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.formulario label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.formulario input[type=radio] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #999;
+    transition: 0.2s all linear;
+    margin-right: 5px;
+    position: relative;
+    top: 4px;
+}
+
+.formulario input:checked {
+    border: 8px solid rgb(230, 182, 173);
+}
+
+.foto {
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 80px;
+    margin-top: 60px;
+    border: 2px solid rgb(0, 0, 0);
+    float: right;
+    max-width: 100%;
+    height: auto;
+}
+
+.contenedor_dashboard{
+    width: 100%;
+}
+.contenedor_cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.card_dashboard{
+    margin: 10px;
+    padding: 5px 0 0 0;
+    width: 250px;
+    height: 120px;
+    border-radius: 5px;
+    box-shadow: 2px 15px 3px #848484;
+    transition: transform .2s; /* Animation */
+}
+.card_dashboard:hover {
+    transform: scale(1.1); 
+}
+
+.primera_card{
+    background-color: #17a2b8;
+}
+
+.segunda_card{
+    background-color: #ffc107;
+}
+.tercera_card{
+    background-color: #28a745;
+}
+
+.cuarta_card{
+    background-color: #dc3545;
+}
+.mas_info{
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    height: 34px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.mas_info a, .card_dashboard {
+    color: #fff;
+    font-weight: 800;
+}
+
+.mas_info a:hover{
+    color:white;
+}
+
+.info{
+    padding: 5px;
+}
+.info-1{
+    background-color: #1592a5;
+}
+.info-2{
+    background-color: #e5ad06;
+}
+.info-3{
+    background-color: #24963e;
+}
+
+.info-4{
+    background-color: rgb(198 48 62);
+}
+.icono{
+    position: absolute;
+    margin-left: 140px;
+}
+
+.iconos_card{
+    font-size: 70px;
+    color: rgba(218, 218, 218, 0.358)
+}
+
+.caja1 {
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    position: absolute;
+    top: 240px;
+    left: 390px;
+    border-radius: 35px 35px 35px 35px;
+    -moz-border-radius: 35px 35px 35px 35px;
+    -webkit-border-radius: 35px 35px 35px 35px;
+    border: 2px solid #000000;
+}
+
+
+.caja1:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.caja1 {
+    overflow: hidden;
+}
+
+.caja2 {
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    position: absolute;
+    top: 460px;
+    left: 840px;
+    border-radius: 35px 35px 35px 35px;
+    -moz-border-radius: 35px 35px 35px 35px;
+    -webkit-border-radius: 35px 35px 35px 35px;
+    border: 2px solid #000000;
+}
+
+.caja2:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.caja2 {
+    overflow: hidden;
+}
+
+.photo {
+    position: sticky;
+    transition: 0.5s;
+    border: 2px solid rgb(0, 0, 0);
+    z-index: 10;
+}
+
+.photo:hover {
+    transform: scale(1.8);
+}
+
+table th {
+    background-color: #216ddf !important;
+    color: white;
+}
+
+table>tbody>tr>td {
+    vertical-align: middle !important;
+}
+
+.btn-group,
+.btn-group-vertical {
+    position: absolute !important;
+}

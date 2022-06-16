@@ -1,0 +1,79 @@
+
+body {
+    margin: 0;
+    font-family:"Times New Roman", Times, serif;
+    background-color: #f8fafc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem;
+    text-align: center;
+    font-size: 26px;
+  }
+
+  label {
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-size: 17px;
+}
+
+b {
+    font-size: 17px;
+}
+
+.invoice-box {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #eee;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  color: rgb(0, 0, 0);
+}
+.tittle{
+  text-align: center;
+  font-size: 22px;
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(0, 0, 0);
+}
+.aso{
+  font-size: 20px;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  color: rgb(0, 0, 0);
+}
+.Subtittle1{
+  text-align: left;
+  font-size: 22px;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  color: #0275d8;
+}
+
+
+/** RTL **/
+.invoice-box.rtl {
+  direction: rtl;
+  font-family: Tahoma, "Helvetica Neue", "Helvetica", Helvetica, Arial,
+    sans-serif;
+}
+.invoice-box.rtl table {
+  text-align: right;
+}
+.invoice-box.rtl table tr td:nth-child(2) {
+  text-align: left;
+}
+.linea {
+border-top: 4px solid #0275d8;
+height: 2px;
+padding: 0;
+margin: 20px auto 0 auto;
+}
+
+#fecha{
+  font-size: 14px;
+}
+
+
+
