@@ -172,9 +172,7 @@
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="blog-sec">
                                 <div class="blog-img">
-                                    <a href="">
-                                        <img src="img/salonevento.jpeg" class="img-responsive">
-                                    </a>
+                                    <img src="img/salonevento.jpeg" class="img-responsive">
                                 </div>
                                 <div class="blog-info">
                                     <h2>Salon de Eventos</h2>
@@ -186,9 +184,7 @@
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="blog-sec">
                                 <div class="blog-img">
-                                    <a href="">
-                                        <img src="img/cocina.jpeg" class="img-responsive">
-                                    </a>
+                                    <img src="img/cocina.jpeg" class="img-responsive">
                                 </div>
                                 <div class="blog-info">
                                     <h2>Cocina</h2>
@@ -200,9 +196,7 @@
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="blog-sec">
                                 <div class="blog-img">
-                                    <a href="">
-                                        <img src="img/fisio.jpeg" class="img-responsive">
-                                    </a>
+                                    <img src="img/fisio.jpeg" class="img-responsive">
                                 </div>
                                 <div class="blog-info">
                                     <h2>Consultorio Fisioterapéutico</h2>
@@ -216,9 +210,7 @@
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="blog-sec">
                                 <div class="blog-img">
-                                    <a href="">
-                                        <img src="img/areaverde.jpeg" class="img-responsive">
-                                    </a>
+                                    <img src="img/areaverde.jpeg" class="img-responsive">
                                 </div>
                                 <div class="blog-info">
                                     <h2>Áreas Verdes</h2>
@@ -243,9 +235,7 @@
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="blog-sec">
                                 <div class="blog-img">
-                                    <a href="">
-                                        <img src="img/comedor.jpeg" class="img-responsive">
-                                    </a>
+                                    <img src="img/comedor.jpeg" class="img-responsive">
                                 </div>
                                 <div class="blog-info">
                                     <h2>Comedor</h2>
@@ -600,7 +590,7 @@
                                 <div class="contact-form">
                                     <div id="sendmessage">Tu mensaje fue enviado. Gracias!</div>
                                     <div id="errormessage"></div>
-                                    <form   action="https://formspree.io/f/xvolvlkv"
+                                    <form action="https://formspree.io/f/myyoazkp"
                                     method="POST" class="contactForm">
                                     @csrf
                                         <div class="col-md-6 padding-right-zero">
@@ -619,14 +609,6 @@
                                                 <div class="validation"></div>
                                             </div>
                                         </div>
-                                        {{-- <div class="col-md-12">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" name="phone" id="phone"
-                                                    placeholder="Telefono" data-rule="minlen:8"
-                                                    data-msg="Por favor, ingresa como minimo 8 caracteres en el Telefono" />
-                                                <div class="validation"></div>
-                                            </div>
-                                        </div> --}}
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <textarea class="form-control" name="message" rows="5" data-rule="required"
