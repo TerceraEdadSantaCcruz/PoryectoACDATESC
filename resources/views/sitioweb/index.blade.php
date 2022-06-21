@@ -556,11 +556,8 @@
                                     legislación vigente, a la población.</p>
                             </div>
                         </div>
-
                     </div>
                 </div>
-                <br>
-                <br>
         </div>
         </section>
 
